@@ -1,11 +1,15 @@
 <!doctype html>
 <html lang="pt_BR">
     <head>
+        <!-- Para definir o conjunto de caracteres como o humano-->
         <meta charset="UTF-8" />
+        <!-- Aparece no início quando é pesquisado-->
         <meta name = "author" content = "Matheus Saraiva" />
         <meta name = "description" content = "Um site abrangendo o conteúdo da história de call of duty zombies." />
         <title>Call of duty Zombies</title>
+        <!-- Para pegar o css-->
         <link rel="stylesheet" href="zombie.css">
+        <!-- esse é para a imagem que fica na guia da página-->
         <link rel="shortcut icon" href="/novo_inicio/imagens/favicon-32x32.png" type="image/x-icon">
 
     </head>
@@ -13,12 +17,14 @@
 
         <header>
 
-            <h1> Este site é destinado a falar sobre a história de Zombies do Call of duty! </h1>
+            <!-- abbr é abreviação -->
+
+            <h1> Este site é destinado a falar sobre a história de Zombies do <abbr title="Call of duty">COD!</abbr> </h1>
             <h2> Divirta-se! </h2>
 
         </header>
 
-        <section>
+        <main>
 
             <p> É uma série amada por muitos e vista com uma boa nostalgia para jogar com seus amigos no ps3. Há quatro protagonistas, sendo que nem todos são bonzinhos, em um contexto de segunda guerra para combater uma ameaça maior, ignorando suas diferenças.</p>
 
@@ -26,7 +32,14 @@
 
             <p> Suas personalidades únicas e caricatas de suas nacionalidades criam carisma e você acompanha a jornada deles para acabar com os zombies de uma vez por todas, ou é o que o Alemão, <strong>Richtofen</strong>, quer que acreditemos! </p>
 
-            <p>Os zombies nasceram do elemento 115 que começou a ser usado para armas na segunda guerra, ele na atmosfera transformava tudo em zombie!</p>
+            <!-- dl, dt e dd usados para descrição, cite é para citação-->
+
+            <dl>
+                <dt> Fala de Richtofen no jogo: </dt>
+                <dd><cite> A cabeça dele explodiu! QUE ALEGRIA!</cite></dd>
+            </dl>
+
+            <p>Os zombies nasceram do elemento<sub>115</sub> que começou a ser usado para armas na segunda guerra, ele na atmosfera transformava tudo em zombie!</p>
 
             <img src="/novo_inicio/imagens/Elemento115parte1.jpg" alt="elemento 115">
 
@@ -58,14 +71,15 @@
                 <input type="text" />
                 <input type="button" value="Confirmar" />
             </form>
-        </section>
+        </main>
 
         <footer>
             <h3>Fontes</h3>
             <ul>
-            <li><a href="https://www.callofduty.com/br/pt/blackopscoldwar/zombies">Site oficial do zombies</a></li>
+            <li><a href="https://www.callofduty.com/br/pt/blackopscoldwar/zombies" title = "Informações sobre a série e jogos">Site oficial do zombies</a></li>
             </ul>
         </footer>
+        <!-- Para pegar o javascript mínimo que eu fiz -->
         <script src = "main.js"> </script>
     </body>
 </html>
